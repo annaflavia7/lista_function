@@ -7,8 +7,15 @@
     */
 
     //Entrada
-
-
+    const palavra = prompt("informe uma palavra").toLowerCase();
+    let numvogais = 0;
+    function vogais(){
+        for(let letra of palavra){
+            if(letra=="a" || letra=="e" || letra=="i" || letra == "o" || letra =="u")numvogais++;
+        }
+        return numvogais;
+    }
+    alert(`A quantidade de vogais é ${vogais()}`);
     //Processamento
 
 

@@ -6,11 +6,12 @@
     */
 
     //Entrada
+    const grausF = Number(prompt("Quantos graus fahrenheit esta agora?"))
+    let grausC = (grausF - 32) * 5 / 9
 
-
-    //Processamento
-
-
-    //Saída
+    function conversão (grausF, grausC){
+        alert(`${grausF} graus farenheit são ${grausC} graus celsius`)
+    }
+    conversão(grausF, grausC)
 
 </script>

@@ -5,11 +5,19 @@
     */
 
     //Entrada
-
-
+    const num = Number(prompt("Informe um numero inteiro"))
     //Processamento
+    function fatorial(num) {
+        if (num == 1) {
+            return 1;
+        } else {
+            return num * fatorial(numero - 1);
+        }
+    }
+    let resultado = fatorial(5);
 
 
     //Saída
+    alert(resultado)
 
 </script>
