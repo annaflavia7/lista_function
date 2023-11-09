@@ -5,10 +5,16 @@
     */
 
     //Entrada
-
-
+    let numero = Number(prompt("Informe um número primo"))
+    
     //Processamento
-
+    function primo() {
+        if (numero%2==0 || numero%4==0 || numero%8==0)
+        alert(`O número ${numero} não é um número primo`)
+        else
+        alert(`O número ${numero} é um número primo`)
+    }
+    primo()
 
     //Saída
 
